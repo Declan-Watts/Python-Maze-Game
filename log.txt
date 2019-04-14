@@ -1,0 +1,54 @@
+Log:
+I got the task of making a maze game, what do i need?
+1.Buttons: Buttons for North South East and West
+2.Labels:  I need the Labels to explain where in the map they are
+3.Array: I need a 3D array so i can store all of the data for the map and add a 
+position to the players
+4. A Gui for the program to have a face for the user to interact with
+5. A Position argument for the program to know where the user is
+6. A Check Position for the program to check the current available position, and 
+directions to enable or disable all of the buttons
+
+First i created the gui with the minimal viable specs which are listed above. 
+I created this with the algorithm that i had typed up and so i could simply 
+follow it and create a program where the user could move around the map(Array).
+
+After testing after each feature was implemented, when the minimal specs were 
+added, i did a big test through the whole program making sure it all worked 
+correctly without any unwanted buggs. After this testing i had to make the program 
+dry and make it clean, label every part and explain how it all worked.
+
+Next i had to add in a feature where the labels will have the correct grammar and 
+the buttons will change colour when they are disabled. This was important because it made
+ it easier for the user to know what directions are available to travel and which aren't.
+
+After testing these until they worked i had to make these dry, I also started writing up 
+each of the next things i needed to add.
+
+I now want to add in a feature where you can accept a quest, take have an inventory, 
+and have a minigame where you can click the minigame button. This has taken a while because
+ it was very messy with things all over the place with all of the globals i am making to 
+allow the quests to work properly.
+
+After the testing i was able to get it all to work, and have been able to make it dry 
+enough to be acceptable, but i would still like to make it more dry, and one thing that i
+ have noticed is it has a little bit of lag once one of the quests have been started and 
+that needs to be sorted out.
+
+Now i want to add in a login feature where you can save your game, load your game, and 
+create a new game file. This won't be too hard, the hardest part is keeping the game and 
+login able to use the same window, and reset all the widgets without crashing.
+
+After the testing i was able to finally get it all to work, the only issue i have now is 
+that the Window status at the previous size set by the maze game, and that is because the 
+maze game is bigger than the login window but it all works and the game can be saved and 
+loaded using an array that is saved into a text document that will load up all the necessary 
+variables for the game. This is also how i have managed to compact the quest feature of the
+ game even more and make it less laggy, because i was able to add an array for the quest 
+feature that meant i has less variables to check for, because i only needed to look inside
+ of the array instead of running through a lot of if variables.
+
+Now it's time to try and make the game more pleasing to the eye. I have been testing around 
+with the abilities i have to change the look of things, but now i need to make it a pleasing 
+thing to actually look at.
+
